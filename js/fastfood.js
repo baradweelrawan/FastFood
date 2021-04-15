@@ -17,6 +17,7 @@ if(userFood === foodprefer )
 
 var costumerprefer= prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
 
+<<<<<<< HEAD
  while (costumerprefer != 'sea food' &&  costumerprefer != 'fast food' && costumerprefer != 'healthy food')
   {
     costumerprefer= prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
@@ -32,6 +33,11 @@ var costumerprefer= prompt('Please Enter What You Prefer (sea food,fast food,hea
 if (costumerprefer == 'sea food')
 {
    var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood" width =300 px/>';
+=======
+if (costumerprefer == 'sea food')
+{
+   var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood"/>';
+>>>>>>> 75039e2abfd9805d86a565f51c420715ca9ac5b0
    document.write(image);
 }
 else if(costumerprefer=='fast food')
@@ -51,3 +57,7 @@ else if(costumerprefer=='healthy food')
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75039e2abfd9805d86a565f51c420715ca9ac5b0
