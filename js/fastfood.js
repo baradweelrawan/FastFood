@@ -1,30 +1,53 @@
-var foodprefer = healthy
-console.log(foodprefer)
-if (foodprefer == healthy)
+var foodprefer = 'healthy';
+var userFood = prompt('what kind of food do you Prefer?(healthy,..)');
+
+
+
+if(userFood === foodprefer )
   {
-     console.log('vegetarian');
+    alert('vegetarian');
+   
   }
-  else if
+  else
   {
-    console.log('non-vegetarian');
+    alert('non-vegetarian');
+  
   }  
-var costumerprefer= prompt('Please Enter What You Prefer (Sea Food,Fast Food,Healthy Food)?')
-if (costumerprefer == 'Sea Food')
+
+
+var costumerprefer= prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
+
+ while (costumerprefer != 'sea food' &&  costumerprefer != 'fast food' && costumerprefer != 'healthy food')
+  {
+    costumerprefer= prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
+
+  }
+  console.log( costumerprefer);
+
+  var numofmeals =  prompt('Please Enter The Number Of Meals You Will Order')
+
+  for ( var i = 1 ;i <= numofmeals ; i++)
+  {
+  
+if (costumerprefer == 'sea food')
 {
-   var image =<'img src="https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=6&m=1156011999&s=612x612&w=0&h=1QOAOUSrhL6f--Jzg-ImV0XQ8QsP6BKjsR7FOD7pAIU= alt="SEAFOOD"/>
+   var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood" width =300 px/>';
    document.write(image);
 }
-else if(costumerprefer=='Fast Food')
+else if(costumerprefer=='fast food')
 {
-  var image1 =<'img src="https://youngmenshealthsite.org/wp-content/uploads/2015/05/iStock_000016515039Small.jpg" alt="FastFOOD"/>
+  var image1 ='<img src="https://www.zinmobi.com/wp-content/uploads/2015/05/online-ordering.jpg" alt= "fastfood" width=500px/>';
+
    document.write(image1);
 }
-else if(costumerprefer=='Health Food')
+else if(costumerprefer=='healthy food')
 {
-   var image2 =<'img src="image/Healthfood.jpg"alt="Health Food"/>';
+   var image2 ='<img src="image/Healthfood.jpg" alt= "Healthfood"/>';
+
    document.write(image2);
+}
 }
 
 
 
- 
+
