@@ -37,19 +37,13 @@ var numofmeals1 =  prompt('Please Enter The Number Of Meals You Will Order')
 
   for ( var i = 1 ;i <= numofmeals1 ; i++)
   {
- function costumerprefer()
-{
-<<<<<<< HEAD
-  var costumerprefer = prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
- 
+  
 if (costumerprefer == 'sea food')
 {
   var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood"/>';
   document.write(image);
-=======
-   var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood"/>';
-   document.write(image);
->>>>>>> a81c26e082d0c0c99af4fa716d241628c96968c2
+
+   
 }
 else if(costumerprefer=='fast food')
 {
@@ -62,11 +56,7 @@ else if(costumerprefer=='healthy food')
   
    document.write(image2);
 }
-<<<<<<< HEAD
-}
+
 }
 }
 numofmeals(costumerprefer);
-=======
-}
->>>>>>> a81c26e082d0c0c99af4fa716d241628c96968c2
