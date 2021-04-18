@@ -1,8 +1,6 @@
 var foodprefer = 'healthy';
 var userFood = prompt('what kind of food do you Prefer?(healthy,..)');
 
-
-
 if(userFood === foodprefer )
   {
     alert('vegetarian');
@@ -17,47 +15,49 @@ if(userFood === foodprefer )
 
 var costumerprefer= prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
 
-<<<<<<< HEAD
+
  while (costumerprefer != 'sea food' &&  costumerprefer != 'fast food' && costumerprefer != 'healthy food')
   {
     costumerprefer= prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
 
   }
   console.log( costumerprefer);
-
-  var numofmeals =  prompt('Please Enter The Number Of Meals You Will Order')
-
-  for ( var i = 1 ;i <= numofmeals ; i++)
-  {
   
+  
+
+//function  food (costumerprefer)
+//{
+//   var ask =  prompt('Please Enter What You Prefer' + costumerprefer +'?');
+ //  return ask;
+//}
+//food ();
+function numofmeals(costumerprefer)
+{
+var numofmeals1 =  prompt('Please Enter The Number Of Meals You Will Order')
+
+  for ( var i = 1 ;i <= numofmeals1 ; i++)
+  {
+ function costumerprefer()
+{
+  var costumerprefer = prompt('Please Enter What You Prefer (sea food,fast food,healthy food)?')
+ 
 if (costumerprefer == 'sea food')
 {
-   var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood" width =300 px/>';
-=======
-if (costumerprefer == 'sea food')
-{
-   var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood"/>';
->>>>>>> 75039e2abfd9805d86a565f51c420715ca9ac5b0
-   document.write(image);
+  var image ='<img src="https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg" alt= "seafood"/>';
+  document.write(image);
 }
 else if(costumerprefer=='fast food')
 {
   var image1 ='<img src="https://www.zinmobi.com/wp-content/uploads/2015/05/online-ordering.jpg" alt= "fastfood" width=500px/>';
-
-   document.write(image1);
+  document.write(image1);
 }
 else if(costumerprefer=='healthy food')
 {
    var image2 ='<img src="image/Healthfood.jpg" alt= "Healthfood"/>';
-
+  
    document.write(image2);
 }
 }
-
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 75039e2abfd9805d86a565f51c420715ca9ac5b0
+}
+}
+numofmeals(costumerprefer);
